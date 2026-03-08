@@ -5,10 +5,11 @@ box-sizing:border-box;
 }
 
 body{
-font-family:'Poppins',sans-serif;
-line-height:1.6;
-color:#222;
+font-family:'Inter',sans-serif;
+margin:0;
 background:#fafafa;
+color:#222;
+line-height:1.6;
 }
 
 
@@ -19,7 +20,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 80px;
-background:white;
+background:black;
 border-bottom:1px solid #eee;
 position:sticky;
 top:0;
