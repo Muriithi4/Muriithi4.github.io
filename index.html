@@ -1,211 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Muriithi | Bioinformatician</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Muriithi | Bioinformatician</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-<header>
-  <h1>Muriithi</h1>
-  <p>Bioinformatician | Genomic Surveillance | Malaria Genomics</p>
-</header>
+
+<!-- NAVIGATION -->
+
+<header class="navbar">
+
+<div class="nav-container">
+
+<h1 class="logo">Muriithi</h1>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#publications">Publications</a>
-  <a href="#contact">Contact</a>
-  <a href="#cv">CV</a>
+
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#publications">Publications</a>
+<a href="#cv">CV</a>
+<a href="#contact">Contact</a>
+
 </nav>
-  
-    <section id="about">
-  <h2>About Me</h2>
 
-  <p class="about-intro">
-    I am a bioinformatician with a strong foundation in molecular biology and
-    computational analysis, with research interests centered on genomic
-    surveillance, antimalarial drug resistance, and population genetics of
-    malaria parasites and vectors.
-  </p>
+</div>
 
-  <p>
-    My work focuses on the analysis of large-scale genomic datasets to identify
-    and interpret genetic variation relevant to infectious disease transmission
-    and control. I have experience working with public and field-derived
-    datasets, applying statistical analysis, variant profiling, and data
-    visualization to extract biologically meaningful insights.
-  </p>
+</header>
 
-  <p>
-    I am particularly interested in integrating genomics with epidemiological
-    and evolutionary frameworks to support malaria surveillance and evidence-
-    based decision-making. My long-term goal is to pursue doctoral training in
-    computational and evolutionary genomics, with an emphasis on infectious
-    diseases of global health importance.
 
-  <div class="about-block">
-    <h3>Academic Background</h3>
-    <p>
-      I hold a Master of Science in Molecular Biology and Bioinformatics from
-      Jomo Kenyatta University of Agriculture and Technology (JKUAT), where my
-      training combined molecular parasitology, genomics, and computational
-      biology. My academic work has focused on the identification and
-      functional characterisation of resistance-associated mutations in
-      malaria parasites, supported by both wet-lab experimentation and
-      in silico analysis.
-    </p>
-  </div>
 
-  <div class="about-block">
-    <h3>Research Interests</h3>
-    <ul>
-      <li>Antimalarial drug resistance and molecular surveillance</li>
-      <li>Structure–function relationships in parasite proteins</li>
-      <li>Transporter-mediated drug response mechanisms</li>
-      <li>Computational modelling, molecular docking, and dynamics simulations</li>
-      <li>Genomic and sequence-based analysis of <em>Plasmodium</em> species</li>
-    </ul>
-  </div>
+<!-- HERO SECTION -->
 
-  <div class="about-block">
-    <h3>Methods & Technical Expertise</h3>
-    <p>
-      My work spans experimental and computational methodologies, including
-      parasite culture, drug susceptibility assays, and genetic manipulation,
-      alongside bioinformatics pipelines for sequence analysis, structural
-      modelling, and statistical analysis.
-    </p>
-    <ul>
-      <li>Protein structure prediction (AlphaFold, I-TASSER)</li>
-      <li>Molecular docking and dynamics (AutoDock Vina, GROMACS)</li>
-      <li>Genomic and sequence analysis (BLAST, multiple sequence alignment)</li>
-      <li>Data analysis and visualisation using R and Python</li>
-      <li>Linux-based computational workflows</li>
-    </ul>
-  </div>
+<section class="hero">
 
-  <div class="about-block">
-    <h3>Professional Focus</h3>
-    <p>
-      I am particularly interested in applying computational biology and
-      data-driven approaches to support malaria control efforts, including
-      resistance monitoring and translational research that bridges molecular
-      findings with public health impact.
-    </p>
-  </div>
+<h1>Muriithi</h1>
+
+<p class="hero-subtitle">
+Bioinformatician | Genomic Surveillance | Malaria Genomics
+</p>
+
+<a class="hero-button" href="assets/Muriithi_CV.pdf" target="_blank">
+Download CV
+</a>
+
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
 
-  <div class="project">
-    <h3>
-      Structural and Functional Implications of MIT2 and NT2 Mutations in
-      Amodiaquine and Piperaquine Resistant <em>Plasmodium berghei</em>
-    </h3>
 
-    <p class="project-meta">
-      <strong>Journal article:</strong>
-      <em>Experimental Parasitology</em> |
-      <a href="https://doi.org/10.1016/j.exppara.2025.108923" target="_blank" rel="noopener">
-        https://doi.org/10.1016/j.exppara.2025.108923
-      </a>
-    </p>
+<!-- ABOUT -->
 
-    <p>
-      This study investigated the molecular mechanisms underlying resistance to
-      the antimalarial drugs amodiaquine and piperaquine in
-      <em>Plasmodium berghei</em>, with a particular focus on mutations arising
-      in membrane-associated transporter genes MIT2 and NT2. The project sought
-      to determine how these mutations influence parasite fitness, drug
-      susceptibility, and transporter protein function.
-    </p>
+<section id="about" class="section">
 
-    <p>
-      An integrative experimental and computational framework was employed.
-      Genetically modified parasite lines with well-characterized resistance
-      phenotypes were analysed alongside genomic and sequence-level data to
-      identify resistance-associated mutations. Structural modelling and
-      functional interpretation were then used to assess the impact of these
-      mutations on transporter conformation, stability, and substrate
-      interactions.
-    </p>
+<h2>About</h2>
 
-    <p>
-      By directly linking specific genetic alterations to measurable resistance
-      phenotypes, this work provides mechanistic insight into how transporter
-      mutations mediate reduced antimalarial drug efficacy. The findings support
-      molecular surveillance efforts for antimalarial resistance and contribute
-      to the rational design and deployment of effective therapeutic strategies.
-    </p>
-  </div>
+<p class="about-intro">
+I am a bioinformatician with a strong foundation in molecular biology and
+computational analysis, with research interests centered on genomic
+surveillance, antimalarial drug resistance, and population genetics of
+malaria parasites and vectors.
+</p>
 
-  <div class="project">
-    <h3>
-      Structural and Functional Impact of the G340S Mutation in
-      <em>Plasmodium falciparum</em> Ferredoxin NADP⁺ Reductase:
-      <em>In silico</em> Analysis and Molecular Docking
-    </h3>
+<p>
+My work focuses on the analysis of large-scale genomic datasets to identify
+and interpret genetic variation relevant to infectious disease transmission
+and control. I have experience working with public and field-derived
+datasets, applying statistical analysis, variant profiling, and data
+visualization to extract biologically meaningful insights.
+</p>
 
-    <p class="project-meta">
-      <strong>Preprint:</strong>
-      VeriXiv |
-      <a href="https://doi.org/10.12688/verixiv.2019.1" target="_blank" rel="noopener">
-        https://doi.org/10.12688/verixiv.2019.1
-      </a>
-    </p>
+<p>
+I am particularly interested in integrating genomics with epidemiological
+and evolutionary frameworks to support malaria surveillance and evidence-
+based decision-making. My long-term goal is to pursue doctoral training in
+computational and evolutionary genomics with an emphasis on infectious
+diseases of global health importance.
+</p>
 
-    <p>
-      In the context of identifying resistance markers associated with
-      lumefantrine, preliminary experimental work identified a mutation in
-      <em>Plasmodium berghei</em> Ferredoxin NADP⁺ Reductase (FNR), G332S, which
-      corresponds to the G340S substitution in
-      <em>Plasmodium falciparum</em>. PfFNR is an essential apicoplast-localized
-      enzyme involved in critical biosynthetic pathways and antimalarial drug
-      activation.
-    </p>
 
-    <p>
-      To characterise the structural and functional consequences of the G340S
-      mutation, this project employed a comprehensive <em>in silico</em>
-      bioinformatics pipeline. High-confidence wild-type and mutant PfFNR
-      structural models were generated using AlphaFold3 and I-TASSER. Molecular
-      docking analyses were performed with AutoDock Vina and AlphaFold3, followed
-      by molecular dynamics simulations conducted in GROMACS. Structural
-      visualisation and interaction mapping were carried out using ChimeraX.
-    </p>
+<div class="about-grid">
 
-    <p>
-      Structural analyses revealed that the G340S substitution alters the
-      conformation of the NADP⁺-binding loop, disrupts key hydrogen-bonding
-      networks within the cofactor-overlapping region, and reduces predicted
-      cofactor-binding affinity, while preserving the overall protein fold.
-      These findings provide molecular-level insight into how single-point
-      mutations in PfFNR may contribute to altered drug response phenotypes.
-    </p>
-  </div>
+
+<div class="about-block">
+
+<h3>Academic Background</h3>
+
+<p>
+I hold a Master of Science in Molecular Biology and Bioinformatics from
+Jomo Kenyatta University of Agriculture and Technology (JKUAT). My
+academic work has focused on the identification and functional
+characterisation of resistance-associated mutations in malaria parasites,
+supported by both wet-lab experimentation and computational analysis.
+</p>
+
+</div>
+
+
+
+<div class="about-block">
+
+<h3>Research Interests</h3>
+
+<ul>
+<li>Antimalarial drug resistance and molecular surveillance</li>
+<li>Structure–function relationships in parasite proteins</li>
+<li>Transporter-mediated drug response mechanisms</li>
+<li>Computational modelling, molecular docking, and molecular dynamics</li>
+<li>Genomic and sequence-based analysis of <em>Plasmodium</em> species</li>
+</ul>
+
+</div>
+
+
+
+<div class="about-block">
+
+<h3>Methods & Technical Expertise</h3>
+
+<ul>
+<li>Protein structure prediction (AlphaFold, I-TASSER)</li>
+<li>Molecular docking and dynamics (AutoDock Vina, GROMACS)</li>
+<li>Genomic and sequence analysis (BLAST, MSA)</li>
+<li>Data analysis and visualisation in R and Python</li>
+<li>Linux-based computational workflows</li>
+</ul>
+
+</div>
+
+
+
+<div class="about-block">
+
+<h3>Professional Focus</h3>
+
+<p>
+I am particularly interested in applying computational biology and
+data-driven approaches to support malaria control efforts, including
+drug-resistance monitoring and translational research linking molecular
+insights with public health interventions.
+</p>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="publications">
-  <h2>Publications</h2>
-  <p>Accepted manuscript in <em>Experimental Parasitology</em>.</p>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+<h2>Projects</h2>
+
+
+<div class="project-card">
+
+<h3>
+Structural and Functional Implications of MIT2 and NT2 Mutations in
+Amodiaquine and Piperaquine Resistant <em>Plasmodium berghei</em>
+</h3>
+
+<p class="project-meta">
+Journal Article — <em>Experimental Parasitology</em>
+</p>
+
+<a class="doi-link"
+href="https://doi.org/10.1016/j.exppara.2025.108923"
+target="_blank">
+View Publication
+</a>
+
+<p>
+This study investigated the molecular mechanisms underlying resistance to
+the antimalarial drugs amodiaquine and piperaquine in
+<em>Plasmodium berghei</em>, focusing on mutations in the transporter genes
+MIT2 and NT2. The project combined genomic analysis with structural
+modelling to evaluate how these mutations influence transporter protein
+function, parasite fitness, and drug susceptibility.
+</p>
+
+</div>
+
+
+
+<div class="project-card">
+
+<h3>
+Structural and Functional Impact of the G340S Mutation in
+<em>Plasmodium falciparum</em> Ferredoxin NADP⁺ Reductase:
+<em>In silico</em> Analysis and Molecular Docking
+</h3>
+
+<p class="project-meta">
+Preprint — VeriXiv
+</p>
+
+<a class="doi-link"
+href="https://doi.org/10.12688/verixiv.2019.1"
+target="_blank">
+View Preprint
+</a>
+
+<p>
+This project examined the structural and functional impact of the G340S
+mutation in PfFNR, an apicoplast enzyme involved in key biosynthetic
+pathways and antimalarial drug activation. Structural models were
+generated using AlphaFold and I-TASSER, followed by docking analyses
+with AutoDock Vina and molecular dynamics simulations using GROMACS.
+</p>
+
+</div>
+
 </section>
 
-<section id="cv">
-  <h2>CV</h2>
-  <p><a href="assets/Muriithi_CV.pdf" target="_blank">Download CV (PDF)</a></p>
+
+
+<!-- PUBLICATIONS -->
+
+<section id="publications" class="section">
+
+<h2>Publications</h2>
+
+<ul class="publication-list">
+
+<li>
+<strong>
+Structural and Functional Implications of MIT2 and NT2 Mutations in
+Amodiaquine and Piperaquine Resistant <em>Plasmodium berghei</em>
+</strong>
+
+<br>
+
+<em>Experimental Parasitology</em>
+
+<br>
+
+<a href="https://doi.org/10.1016/j.exppara.2025.108923">
+https://doi.org/10.1016/j.exppara.2025.108923
+</a>
+
+</li>
+
+</ul>
+
 </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
+
+
+<!-- CV -->
+
+<section id="cv" class="section">
+
+<h2>Curriculum Vitae</h2>
+
+<p>
+
+<a class="cv-button"
+href="assets/Muriithi_CV.pdf"
+target="_blank">
+
+Download CV (PDF)
+
+</a>
+
+</p>
+
 </section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<p>Email: brendamuriithi4@gmail.com</p>
+
+</section>
+
+
+
+<!-- FOOTER -->
 
 <footer>
-  <p>&copy; 2026 Muriithi</p>
+
+<p>© 2026 Muriithi</p>
+
 </footer>
 
+
 </body>
+
 </html>
